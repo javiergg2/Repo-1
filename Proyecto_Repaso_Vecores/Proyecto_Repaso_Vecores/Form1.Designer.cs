@@ -32,7 +32,6 @@
             this.lista_aleatoria = new System.Windows.Forms.ListBox();
             this.BtnEjercicio2 = new System.Windows.Forms.Button();
             this.lista_ejercicio2 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.Boton_Ejercicio3 = new System.Windows.Forms.Button();
             this.lista_ejercicio3 = new System.Windows.Forms.ListBox();
             this.Boton_Ejercicio4 = new System.Windows.Forms.Button();
@@ -50,11 +49,14 @@
             this.lista_ejercicio7 = new System.Windows.Forms.ListBox();
             this.boton_ejercicio9 = new System.Windows.Forms.Button();
             this.lista_ejercicio9 = new System.Windows.Forms.ListBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.boton_ejercicio10 = new System.Windows.Forms.Button();
             this.lista_ejercicio10 = new System.Windows.Forms.ListBox();
             this.boton_ejercicio12 = new System.Windows.Forms.Button();
             this.lista_ejercicio12 = new System.Windows.Forms.ListBox();
+            this.texto_ejercicio12 = new System.Windows.Forms.TextBox();
+            this.boton_ejercicio13 = new System.Windows.Forms.Button();
+            this.lista_ejercicio13 = new System.Windows.Forms.ListBox();
+            this.texto_ejercicio13 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // BtnEjercicio1
@@ -94,15 +96,6 @@
             this.lista_ejercicio2.Size = new System.Drawing.Size(117, 95);
             this.lista_ejercicio2.TabIndex = 3;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Boton_Ejercicio3
             // 
             this.Boton_Ejercicio3.Location = new System.Drawing.Point(311, 35);
@@ -141,7 +134,7 @@
             // 
             // boton_ejercicio11
             // 
-            this.boton_ejercicio11.Location = new System.Drawing.Point(218, 324);
+            this.boton_ejercicio11.Location = new System.Drawing.Point(191, 348);
             this.boton_ejercicio11.Name = "boton_ejercicio11";
             this.boton_ejercicio11.Size = new System.Drawing.Size(75, 23);
             this.boton_ejercicio11.TabIndex = 9;
@@ -153,10 +146,11 @@
             // lista_ejercicio11
             // 
             this.lista_ejercicio11.FormattingEnabled = true;
-            this.lista_ejercicio11.Location = new System.Drawing.Point(201, 353);
+            this.lista_ejercicio11.Location = new System.Drawing.Point(162, 399);
             this.lista_ejercicio11.Name = "lista_ejercicio11";
             this.lista_ejercicio11.Size = new System.Drawing.Size(120, 95);
             this.lista_ejercicio11.TabIndex = 10;
+            this.lista_ejercicio11.SelectedIndexChanged += new System.EventHandler(this.lista_ejercicio11_SelectedIndexChanged);
             // 
             // boton_ejercicio6
             // 
@@ -172,14 +166,14 @@
             // lista_ejercicio6
             // 
             this.lista_ejercicio6.FormattingEnabled = true;
-            this.lista_ejercicio6.Location = new System.Drawing.Point(30, 242);
+            this.lista_ejercicio6.Location = new System.Drawing.Point(39, 248);
             this.lista_ejercicio6.Name = "lista_ejercicio6";
             this.lista_ejercicio6.Size = new System.Drawing.Size(129, 82);
             this.lista_ejercicio6.TabIndex = 12;
             // 
             // caja_ejercicio6
             // 
-            this.caja_ejercicio6.Location = new System.Drawing.Point(30, 220);
+            this.caja_ejercicio6.Location = new System.Drawing.Point(39, 220);
             this.caja_ejercicio6.Name = "caja_ejercicio6";
             this.caja_ejercicio6.Size = new System.Drawing.Size(129, 20);
             this.caja_ejercicio6.TabIndex = 13;
@@ -202,6 +196,7 @@
             this.lista_ejercicio5.Name = "lista_ejercicio5";
             this.lista_ejercicio5.Size = new System.Drawing.Size(120, 95);
             this.lista_ejercicio5.TabIndex = 15;
+            this.lista_ejercicio5.SelectedIndexChanged += new System.EventHandler(this.lista_ejercicio5_SelectedIndexChanged);
             // 
             // boton_ejercicio8
             // 
@@ -218,7 +213,7 @@
             this.lista_ejercicio8.FormattingEnabled = true;
             this.lista_ejercicio8.Location = new System.Drawing.Point(360, 235);
             this.lista_ejercicio8.Name = "lista_ejercicio8";
-            this.lista_ejercicio8.Size = new System.Drawing.Size(102, 82);
+            this.lista_ejercicio8.Size = new System.Drawing.Size(112, 95);
             this.lista_ejercicio8.TabIndex = 17;
             // 
             // boton_ejercicio7
@@ -234,7 +229,7 @@
             // lista_ejercicio7
             // 
             this.lista_ejercicio7.FormattingEnabled = true;
-            this.lista_ejercicio7.Location = new System.Drawing.Point(201, 229);
+            this.lista_ejercicio7.Location = new System.Drawing.Point(210, 235);
             this.lista_ejercicio7.Name = "lista_ejercicio7";
             this.lista_ejercicio7.Size = new System.Drawing.Size(120, 95);
             this.lista_ejercicio7.TabIndex = 19;
@@ -252,23 +247,14 @@
             // lista_ejercicio9
             // 
             this.lista_ejercicio9.FormattingEnabled = true;
-            this.lista_ejercicio9.Location = new System.Drawing.Point(495, 235);
+            this.lista_ejercicio9.Location = new System.Drawing.Point(506, 235);
             this.lista_ejercicio9.Name = "lista_ejercicio9";
-            this.lista_ejercicio9.Size = new System.Drawing.Size(125, 134);
+            this.lista_ejercicio9.Size = new System.Drawing.Size(114, 95);
             this.lista_ejercicio9.TabIndex = 21;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 22;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // boton_ejercicio10
             // 
-            this.boton_ejercicio10.Location = new System.Drawing.Point(55, 330);
+            this.boton_ejercicio10.Location = new System.Drawing.Point(27, 348);
             this.boton_ejercicio10.Name = "boton_ejercicio10";
             this.boton_ejercicio10.Size = new System.Drawing.Size(75, 23);
             this.boton_ejercicio10.TabIndex = 23;
@@ -279,38 +265,75 @@
             // lista_ejercicio10
             // 
             this.lista_ejercicio10.FormattingEnabled = true;
-            this.lista_ejercicio10.Location = new System.Drawing.Point(39, 353);
+            this.lista_ejercicio10.Location = new System.Drawing.Point(12, 399);
             this.lista_ejercicio10.Name = "lista_ejercicio10";
             this.lista_ejercicio10.Size = new System.Drawing.Size(120, 95);
             this.lista_ejercicio10.TabIndex = 24;
             // 
             // boton_ejercicio12
             // 
-            this.boton_ejercicio12.Location = new System.Drawing.Point(360, 324);
+            this.boton_ejercicio12.Location = new System.Drawing.Point(333, 348);
             this.boton_ejercicio12.Name = "boton_ejercicio12";
             this.boton_ejercicio12.Size = new System.Drawing.Size(75, 23);
             this.boton_ejercicio12.TabIndex = 25;
             this.boton_ejercicio12.Text = "Ejercicio 12";
             this.boton_ejercicio12.UseVisualStyleBackColor = true;
+            this.boton_ejercicio12.Click += new System.EventHandler(this.boton_ejercicio12_Click);
             // 
             // lista_ejercicio12
             // 
             this.lista_ejercicio12.FormattingEnabled = true;
-            this.lista_ejercicio12.Location = new System.Drawing.Point(342, 353);
+            this.lista_ejercicio12.Location = new System.Drawing.Point(311, 399);
             this.lista_ejercicio12.Name = "lista_ejercicio12";
             this.lista_ejercicio12.Size = new System.Drawing.Size(120, 95);
             this.lista_ejercicio12.TabIndex = 26;
+            this.lista_ejercicio12.SelectedIndexChanged += new System.EventHandler(this.lista_ejercicio12_SelectedIndexChanged);
+            // 
+            // texto_ejercicio12
+            // 
+            this.texto_ejercicio12.Location = new System.Drawing.Point(315, 373);
+            this.texto_ejercicio12.Name = "texto_ejercicio12";
+            this.texto_ejercicio12.Size = new System.Drawing.Size(100, 20);
+            this.texto_ejercicio12.TabIndex = 27;
+            // 
+            // boton_ejercicio13
+            // 
+            this.boton_ejercicio13.Location = new System.Drawing.Point(495, 348);
+            this.boton_ejercicio13.Name = "boton_ejercicio13";
+            this.boton_ejercicio13.Size = new System.Drawing.Size(75, 23);
+            this.boton_ejercicio13.TabIndex = 28;
+            this.boton_ejercicio13.Text = "Ejercicio 13";
+            this.boton_ejercicio13.UseVisualStyleBackColor = true;
+            this.boton_ejercicio13.Click += new System.EventHandler(this.boton_ejercicio13_Click);
+            // 
+            // lista_ejercicio13
+            // 
+            this.lista_ejercicio13.FormattingEnabled = true;
+            this.lista_ejercicio13.Location = new System.Drawing.Point(491, 399);
+            this.lista_ejercicio13.Name = "lista_ejercicio13";
+            this.lista_ejercicio13.Size = new System.Drawing.Size(120, 95);
+            this.lista_ejercicio13.TabIndex = 29;
+            // 
+            // texto_ejercicio13
+            // 
+            this.texto_ejercicio13.Location = new System.Drawing.Point(491, 373);
+            this.texto_ejercicio13.Name = "texto_ejercicio13";
+            this.texto_ejercicio13.Size = new System.Drawing.Size(100, 20);
+            this.texto_ejercicio13.TabIndex = 30;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(698, 445);
+            this.ClientSize = new System.Drawing.Size(698, 527);
+            this.Controls.Add(this.texto_ejercicio13);
+            this.Controls.Add(this.lista_ejercicio13);
+            this.Controls.Add(this.boton_ejercicio13);
+            this.Controls.Add(this.texto_ejercicio12);
             this.Controls.Add(this.lista_ejercicio12);
             this.Controls.Add(this.boton_ejercicio12);
             this.Controls.Add(this.lista_ejercicio10);
             this.Controls.Add(this.boton_ejercicio10);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.lista_ejercicio9);
             this.Controls.Add(this.boton_ejercicio9);
             this.Controls.Add(this.lista_ejercicio7);
@@ -328,7 +351,6 @@
             this.Controls.Add(this.Boton_Ejercicio4);
             this.Controls.Add(this.lista_ejercicio3);
             this.Controls.Add(this.Boton_Ejercicio3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.lista_ejercicio2);
             this.Controls.Add(this.BtnEjercicio2);
             this.Controls.Add(this.lista_aleatoria);
@@ -347,7 +369,6 @@
         private System.Windows.Forms.ListBox lista_aleatoria;
         private System.Windows.Forms.Button BtnEjercicio2;
         private System.Windows.Forms.ListBox lista_ejercicio2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Boton_Ejercicio3;
         private System.Windows.Forms.ListBox lista_ejercicio3;
         private System.Windows.Forms.Button Boton_Ejercicio4;
@@ -365,11 +386,14 @@
         private System.Windows.Forms.ListBox lista_ejercicio7;
         private System.Windows.Forms.Button boton_ejercicio9;
         private System.Windows.Forms.ListBox lista_ejercicio9;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button boton_ejercicio10;
         private System.Windows.Forms.ListBox lista_ejercicio10;
         private System.Windows.Forms.Button boton_ejercicio12;
         private System.Windows.Forms.ListBox lista_ejercicio12;
+        private System.Windows.Forms.TextBox texto_ejercicio12;
+        private System.Windows.Forms.Button boton_ejercicio13;
+        private System.Windows.Forms.ListBox lista_ejercicio13;
+        private System.Windows.Forms.TextBox texto_ejercicio13;
     }
 }
 
