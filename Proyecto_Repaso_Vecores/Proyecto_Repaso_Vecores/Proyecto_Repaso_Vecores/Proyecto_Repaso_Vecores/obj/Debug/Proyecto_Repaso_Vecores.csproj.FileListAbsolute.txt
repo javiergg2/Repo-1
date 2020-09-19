@@ -1,0 +1,9 @@
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\bin\Debug\Proyecto_Repaso_Vecores.exe.config
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\bin\Debug\Proyecto_Repaso_Vecores.exe
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\bin\Debug\Proyecto_Repaso_Vecores.pdb
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\obj\Debug\Proyecto_Repaso_Vecores.csprojResolveAssemblyReference.cache
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\obj\Debug\Proyecto_Repaso_Vecores.Form1.resources
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\obj\Debug\Proyecto_Repaso_Vecores.Properties.Resources.resources
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\obj\Debug\Proyecto_Repaso_Vecores.csproj.GenerateResource.Cache
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\obj\Debug\Proyecto_Repaso_Vecores.exe
+c:\users\david\documents\visual studio 2015\Projects\Proyecto_Repaso_Vecores\Proyecto_Repaso_Vecores\obj\Debug\Proyecto_Repaso_Vecores.pdb
